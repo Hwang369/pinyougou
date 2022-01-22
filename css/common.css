@@ -62,23 +62,23 @@
 .header {
     position: relative;
     height: 105px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .logo {
     position: absolute;
     top: 25px;
     left: 0;
-    width: 171px;
-    height: 55px;
+    width: 172px;
+    height: 59px;
     /* background-color: purple; */
 }
 
 .logo a {
     display: block;
     overflow: hidden;
-    width: 171px;
-    height: 55px;
+    width: 172px;
+    height: 59px;
     background: url(../img/logo.png) no-repeat;
     text-indent: -9999px;
 }
@@ -118,8 +118,37 @@
 }
 
 .shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
     width: 138px;
     height: 34px;
     border: 1px solid #dfdfdf;
     background-color: #f7f7f7;
+    line-height: 34px;
+    text-align: center;
+}
+
+.car {
+    font-family: 'icomoon';
+    color: #db5858;
+}
+
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.count {
+    position: absolute;
+    /* 左侧对齐，文字才能向右显示。 */
+    top: -5px;
+    left: 100px;
+    background-color: #e60012;
+    height: 14px;
+    padding: 0 3px;
+    line-height: 14px;
+    color: #FFF;
+    /* border-radius: 左上角 右上角 右下角 左下角; */
+    border-radius: 7px 7px 7px 0;
 }
