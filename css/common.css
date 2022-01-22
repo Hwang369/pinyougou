@@ -82,3 +82,44 @@
     background: url(../img/logo.png) no-repeat;
     text-indent: -9999px;
 }
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.text {
+    float: left;
+    width: 455px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    color: #666;
+}
+
+.btn {
+    float: left;
+    border-style: none;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotkeys {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hotkeys a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
