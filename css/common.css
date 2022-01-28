@@ -152,3 +152,60 @@
     /* border-radius: 左上角 右上角 右下角 左下角; */
     border-radius: 7px 7px 7px 0;
 }
+
+
+/* nav start */
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    height: 45px;
+    width: 209px;
+    background-color: pink;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 8px;
+}
+
+.menu_item:hover {
+    background-color: #fff;
+}
+
+.menu_item:hover a {
+    color: #c81623;
+}
+
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu_item i {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}
